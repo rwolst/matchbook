@@ -10,7 +10,9 @@ setup(
     description="Matchbook API Python wrapper",
     url="https://github.com/rozzac90/matchbook",
     packages=find_packages(),
-    install_requires=[line.strip() for line in open("requirements.txt")],
+    install_requires=['requests==2.13.0',
+                      'python-dateutil==2.6.0',
+                      'pytz==2017.2'],
     long_description=open('README.md').read(),
     tests_require=['pytest'],
 )
