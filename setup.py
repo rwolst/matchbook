@@ -14,5 +14,5 @@ setup(
                       'python-dateutil==2.6.0',
                       'pytz==2017.2'],
     long_description=open('README.md').read(),
-    tests_require=['pytest'],
+    tests_require=['pytest', 'pyyaml'],
 )

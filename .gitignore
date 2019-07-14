@@ -9,3 +9,5 @@ matchbook.egg-info/
 *.log
 *.html
 .vs/
+
+examples/config.yaml
